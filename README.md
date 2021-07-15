@@ -1,3 +1,7 @@
+## parse .env file 
+
+create .env file in root directory
+```go
 package main
 
 import (
@@ -13,3 +17,4 @@ func main() {
 		fmt.Printf("%s = %s\n", v.Key, v.Value)
 	}
 }
+```
